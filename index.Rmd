@@ -6,27 +6,47 @@ output:
     toc_float: true
 ---
 
-# This is Elizabeth Park's professional website
-
-
-## My headshot
-
-![](images/headshot.jpg)
-
-
-## Here's a subsection
+# This is Dr. Elizabeth Park's professional website!
 
 
 
-## Links to other websites
-
-Let's link to useful tools for data science:
-
-*[Google](https://www.google.com/)
-*[P8105](https://p8105.com)
 
 
+## Dr. Park's academic and professional experiences
 
-## Link to page within the site
+#Education
+
+- __College: __ 08/2006-05/2009	Boston University College of Arts and Sciences; BA 
+Summa Cum Laude Honor Recipient; Phi Beta Kappa National Honor Society        
+- __Medical School: __ 08/2009-05/2015 Boston University School of Medicine; MD
+- __Graduate School: __ 09/2020-Present Masters in Science, Patient Oriented Research
+
+#Postdoctoral Training
+
+- __Internship/Residency : __ 06/2015-06/2018 Internal Medicine, New York-Presbyterian Hospital/Weill Cornell Medicine
+- __Fellowship : __ 07/2018-07/2020 Rheumatology, Columbia University Medical Center  	
+
+#Reserch Training
+
+- __Internship: __ 10/2008-12/2008 Department of Reproductive Health and Research, World Health Organization 	
+- __Research Assistant: __ 08/2012-09/2013 Department of Dermatology, Seoul National University College of Medicine  
+- __Research Assistant: __ 09/2013-05/2014 Mobile Health Informatics Team, Botswana-University of Pennsylvania Partnership, Perelman School of Medicine, University of Pennsylvania, Center for Global Health
+- __Research Bootcamp: __ 07/2019-08/2019 Columbia Summer Research Institute, Columbia University Mailman School of Public Health  		
+
+#Leadership Positions
+- __Residency: __ 01/2018-03/2018 Assistant Ambulatory Chief Resident, Cornell Internal Medicine Associates
+New York-Presbyterian Hospital/Weill Cornell Medicine
+
+
+### Links to useful information about Dr. Park
+
+*[Fellowship Website](https://www.rheumatologyatcolumbia.org/education/current-fellows)
+
+*[Github Account](https://github.com/ep2899)
+
+*[Professional Email] (ep2899@cumc.columbia.edu)
+
+#### Link to page within the site
+
 
 [About me](about.html)

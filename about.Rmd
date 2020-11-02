@@ -1,0 +1,15 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+##This page has professional information about me
+
+![](images/headshot.jpg)
+
+I am currently a third year clinical fellow in the Division of Rheumatology at Columbia University Medical Center. My research focuses on examining associations between biomarkers of inflammation and cardiac structure and function in asymptomatic Rheumatoid Arthritis patients, under the mentorship of Dr. Joan Bathon. I am also completing an Msc in patient oriented research at the Mailman School of Public Health, Columbia University.
+
+
