@@ -1,0 +1,70 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library (tidyverse)
+library(p8105.datasets)
+library (plotly)
+```
+
+```{r}
+data("instacart")
+
+instacart_df =
+  instacart %>% 
+  select (order_dow, order_hour_of_day, order_id, product_id, aisle_id, department_id, product_name,  aisle, department, reordered, days_since_prior_order, add_to_cart_order
+) %>% 
+  filter(
+    department== "beverages",
+    aisle== "soft drinks",
+product_name== 
+  c( "Zero Calorie Cherry Cola" , "Zero Calorie Cola" , "Zero Calorie Cream Cola" , "Zero Calorie Grape Cola" , "Zero Calorie Lemon Lime Soda" , "Zero Calorie Lemon Lime Twist Soda", "Zero Coke Soda Mini Bottles" , "Zero Cola" , "Zero Soda") ,
+)
+``` 
+
+Column
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart%>%
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  filter(n %in% 5000:150000,) %>% 
+  plot_ly(
+    x = ~aisle, y = ~n, color= ~aisle, type="bar", colors = "viridis")
+```
+
+
+
+Column
+-----------------------------------------------------------------------
+### Chart B
+
+```{r}
+instacart_df %>% 
+   mutate(
+     product_name= fct_reorder (product_name, order_hour_of_day)
+     ) %>%
+  plot_ly(y = ~order_hour_of_day, x= ~product_name, color=~product_name,
+          type = "box", colors="viridis")
+```
+
+
+### Chart C
+
+```{r}
+instacart_df %>% 
+  plot_ly(x = ~order_dow, y = ~order_hour_of_day, z = ~days_since_prior_order) %>%
+  add_markers(color = ~days_since_prior_order)
+```
+
+
+

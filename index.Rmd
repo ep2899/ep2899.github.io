@@ -16,9 +16,9 @@ output:
 
 #Education
 
-- __College: __ 08/2006-05/2009	Boston University College of Arts and Sciences; BA 
-Summa Cum Laude Honor Recipient; Phi Beta Kappa National Honor Society        
-- __Medical School: __ 08/2009-05/2015 Boston University School of Medicine; MD
+- __College: __ 08/2006-05/2009	Boston University College of Arts and Sciences, BA; 
+Summa Cum Laude Honor Recipient, Phi Beta Kappa National Honor Society        
+- __Medical School: __ 08/2009-05/2015 Boston University School of Medicine, MD
 - __Graduate School: __ 09/2020-Present Masters in Science, Patient Oriented Research
 
 #Postdoctoral Training
@@ -34,6 +34,7 @@ Summa Cum Laude Honor Recipient; Phi Beta Kappa National Honor Society
 - __Research Bootcamp: __ 07/2019-08/2019 Columbia Summer Research Institute, Columbia University Mailman School of Public Health  		
 
 #Leadership Positions
+
 - __Residency: __ 01/2018-03/2018 Assistant Ambulatory Chief Resident, Cornell Internal Medicine Associates
 New York-Presbyterian Hospital/Weill Cornell Medicine
 
