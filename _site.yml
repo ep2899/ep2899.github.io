@@ -1,18 +1,18 @@
 name: "Liz Dashboard"
 output_dir: "."
 navbar:
-title: "Home"
-right:
-- text: "About"
-  href: about.html
-- text: "Plotly"
-  href: plotly.html
-- text: "Dashboard"
-  href: dashboard.html
-- icon: fa-envelope fa-lg
-  href: mailto:<ep2899@cumc.columbia.edu>
-- icon: fa-githuanoutb fa-lg
-  href: https://github.com/ep2899
+  title: "Home"
+  right:
+  - text: "About"
+    href: about.html
+  - text: "Plotly"
+    href: plotly.html
+  - text: "Dashboard"
+    href: dashboard.html
+  - icon: fa-envelope fa-lg
+    href: mailto:<ep2899@cumc.columbia.edu>
+  - icon: fa-githuanoutb fa-lg
+    href: https://github.com/ep2899
 output:
   html_document:
     theme: flatly
